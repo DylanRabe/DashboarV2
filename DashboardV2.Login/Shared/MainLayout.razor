@@ -1,0 +1,44 @@
+﻿@inherits LayoutComponentBase
+
+@inject NavigationManager navManager ; 
+
+<PageTitle>DashboardV2.Login</PageTitle>
+
+<div class="page">
+    @if (IsAdminLoggedIn) {
+       
+        <div class="sidebar">
+            <NavMenu />
+        </div>
+    }
+
+    
+
+    <main>
+
+        @if (IsAdminLoggedIn)
+        {
+            <div class="top-row px-4">
+                <a href="#" @onclick="Logout">Logout</a>
+            </div>
+            
+        }
+
+        
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+
+@*pour enlever la barre de choix sur la page login*@
+@code {
+    public bool IsAdminLoggedIn = false;
+
+    public void Logout()
+    {
+        navManager.NavigateTo("/login");
+    }
+}

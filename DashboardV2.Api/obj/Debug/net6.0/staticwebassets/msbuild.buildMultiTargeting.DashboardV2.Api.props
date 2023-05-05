@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DashboardV2.Api.props" />
+</Project>

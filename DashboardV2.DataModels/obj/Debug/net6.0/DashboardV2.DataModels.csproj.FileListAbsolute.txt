@@ -1,0 +1,12 @@
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.DataModels\bin\Debug\net6.0\DashboardV2.DataModels.deps.json
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.DataModels\bin\Debug\net6.0\DashboardV2.DataModels.dll
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.DataModels\bin\Debug\net6.0\DashboardV2.DataModels.pdb
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.DataModels\obj\Debug\net6.0\DashboardV2.DataModels.csproj.AssemblyReference.cache
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.DataModels\obj\Debug\net6.0\DashboardV2.DataModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.DataModels\obj\Debug\net6.0\DashboardV2.DataModels.AssemblyInfoInputs.cache
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.DataModels\obj\Debug\net6.0\DashboardV2.DataModels.AssemblyInfo.cs
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.DataModels\obj\Debug\net6.0\DashboardV2.DataModels.csproj.CoreCompileInputs.cache
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.DataModels\obj\Debug\net6.0\DashboardV2.DataModels.dll
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.DataModels\obj\Debug\net6.0\refint\DashboardV2.DataModels.dll
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.DataModels\obj\Debug\net6.0\DashboardV2.DataModels.pdb
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.DataModels\obj\Debug\net6.0\ref\DashboardV2.DataModels.dll

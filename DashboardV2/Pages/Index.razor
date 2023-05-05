@@ -1,0 +1,87 @@
+﻿@page "/"
+@using DashboardV2.Models
+@using DashboardV2.Data
+@using Microsoft.EntityFrameworkCore;
+@using Microsoft.AspNetCore.Mvc.RazorPages;
+@using System.Collections;
+@using Microsoft.AspNetCore.Mvc;
+
+<PageTitle>Dashboard</PageTitle>
+
+<h1>Dashboard</h1>
+
+Welcome to our Dashboard
+@*@code {
+    namespace DashboardV2.Pages
+    {
+
+    public class IndexModel : PageModel
+    {
+        private readonly CandidatDbContext _context;
+
+        public IndexModel(CandidatDbContext context)
+        {
+            _context = context;
+        }
+
+        //methode handler
+        public async void OnGet()
+        {
+            Candidat = await _context.Candidats.Where(i => i.Name == null)
+                .OrderByDescending(i => i.Id)
+                .ToListAsync();
+        }
+
+        public IEnumerable<Candidat> Candidat { get; set; } = Enumerable.Empty<Candidat>();
+
+
+    }
+    }
+}*@
+
+
+<body>
+    <div class="text-center">
+
+        @*Tag helper permet de generer element html dynamic*@
+        <a asp-page="/Candidat/New" class="w-20 vtn btn-primary m-2"> +Add new+ </a>
+
+        @*
+        @if (Model.Candidat.Count() == 0)
+        {
+            <p class="text-capitalize">Pas de Candidat</p>
+        }
+        *@
+
+        @* else
+        {
+        //bootstrap card compo
+        <div class="row g-0">
+
+        @foreach(var Candidat in Model.Candidat)
+        {
+        <div class="card text-center">
+        <div class="card-header">
+        @Candidat.Name
+        </div>
+        <div class="card-body">
+        <h5 class="card-title">
+        <a asp-page="/Candidats/Detail"  asp-route-id="@Candidat.Id" class="link-dark text-decoration-none">@Candidat.Name</a>
+        </h5>
+        <span class="@Candidat.CV.ToCssClass()">@Candidat.CV</span>
+
+        </div>
+        <div class="card-footer text-muted">
+        <small>@Candidat.Complet.Humanize(utcDate:false)</small>
+        </div>
+        </div>
+        }
+
+        </div>
+        }*@
+
+    </div>
+</body>
+
+
+

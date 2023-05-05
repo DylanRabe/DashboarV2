@@ -1,0 +1,12 @@
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.Logic\bin\Debug\net6.0\DashboardV2.Logic.deps.json
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.Logic\bin\Debug\net6.0\DashboardV2.Logic.dll
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.Logic\bin\Debug\net6.0\DashboardV2.Logic.pdb
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.Logic\obj\Debug\net6.0\DashboardV2.Logic.csproj.AssemblyReference.cache
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.Logic\obj\Debug\net6.0\DashboardV2.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.Logic\obj\Debug\net6.0\DashboardV2.Logic.AssemblyInfoInputs.cache
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.Logic\obj\Debug\net6.0\DashboardV2.Logic.AssemblyInfo.cs
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.Logic\obj\Debug\net6.0\DashboardV2.Logic.csproj.CoreCompileInputs.cache
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.Logic\obj\Debug\net6.0\DashboardV2.Logic.dll
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.Logic\obj\Debug\net6.0\refint\DashboardV2.Logic.dll
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.Logic\obj\Debug\net6.0\DashboardV2.Logic.pdb
+C:\Users\drabemanantsoa\Documents\DashboardV2\DashboardV2.Logic\obj\Debug\net6.0\ref\DashboardV2.Logic.dll

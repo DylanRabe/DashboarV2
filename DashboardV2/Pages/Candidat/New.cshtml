@@ -1,0 +1,40 @@
+﻿@page
+@using DashboardV2.Models;
+@model DashboardV2.Pages.Candidats.IndexModel
+@{
+}
+<h1 class="text-center">Add new Candidat</h1>
+
+<div class="mt-5">
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="Candidat.Name" class="form-label">Name</label>
+            <input asp-for="Candidat.Name" class="form-control" />
+            <span asp-validation-for="Candidat.Name" class="text text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Candidat.Summary" class="form-label">Summary</label>
+            @*<input asp-for="Candidat.Summary" class="form-control"/>*@
+            <textarea asp-for="Candidat.Summary" class="form-control" rows="4"></textarea>
+            <span asp-validation-for="Candidat.Summary" class="text text-danger"></span>
+
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Candidat.Gender" class="form-label">Gender</label>
+            <select class="form-select"
+                    asp-for="Candidat.Gender"
+                    asp-items="Html.GetEnumSelectList<Gender>()"></select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Candidat.CV" class="form-label">CV</label>
+            <select class="form-select"
+                    asp-for="Candidat.CV"
+                    asp-items="Html.GetEnumSelectList<Profession>()"></select>
+        </div>
+        <button class="wt-20 col-10 btn btn-primary btn-lg">Save</button>
+    </form>
+
+</div>

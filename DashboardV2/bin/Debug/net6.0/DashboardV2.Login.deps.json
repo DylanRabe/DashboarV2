@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DashboardV2.Login/1.0.0": {
+        "dependencies": {
+          "DashboardV2.DataModels": "1.0.0"
+        },
+        "runtime": {
+          "DashboardV2.Login.dll": {}
+        }
+      },
+      "DashboardV2.DataModels/1.0.0": {
+        "runtime": {
+          "DashboardV2.DataModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DashboardV2.Login/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DashboardV2.DataModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
